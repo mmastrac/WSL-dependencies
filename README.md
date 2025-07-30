@@ -1,4 +1,33 @@
-LICENSE: MIT
+# Hard-to-find WSL Headers
+
+These headers are MIT licensed, but only available through nuget. This is an extracted version of the nuget package.
+
+## Tree
+
+```
+├── build
+│   └── native
+│       ├── bin
+│       │   ├── wsldeps.dll
+│       │   └── wsldeps.pdb
+│       ├── include
+│       │   ├── lxcore
+│       │   │   ├── lxbusapi.h
+│       │   │   └── lxcoreapi.h
+│       │   ├── Windows
+│       │   │   ├── p9rdr.h
+│       │   │   └── wslsupport.h
+│       │   └── wsldeps.h
+│       └── lib
+│           └── wsldeps.lib
+├── doc
+│   └── README.MD
+├── microsoft.wsl.dependencies.amd64fre.10.0.27820.1000-250318-1700.rs-base2-hyp.nupkg
+├── microsoft.wsl.dependencies.amd64fre.10.0.27820.1000-250318-1700.rs-base2-hyp.nupkg.sha512
+└── microsoft.wsl.dependencies.amd64fre.nuspec
+```
+
+## Package
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
